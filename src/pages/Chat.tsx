@@ -18,7 +18,7 @@ const Chat = () => {
   const [messages, setMessages] = useState<Message[]>([
     {
       id: "1",
-      content: "Hello! I'm your SeaSense AI assistant. I can help you explore and analyze ARGO oceanographic data. Ask me about ocean temperatures, salinity levels, or any marine science questions!",
+      content: "Hello! I'm your WaveTalk AI assistant. I can help you explore and analyze ARGO oceanographic data. Ask me about ocean temperatures, salinity levels, or any marine science questions!",
       role: "assistant",
       timestamp: new Date(),
     },
@@ -82,7 +82,7 @@ const Chat = () => {
         <div className="flex items-center justify-between p-4 border-b">
           <div className="flex items-center space-x-2">
             <Waves className="h-6 w-6 text-primary" />
-            <span className="font-semibold">SeaSense</span>
+            <span className="font-semibold">WaveTalk</span>
           </div>
           <Button
             variant="ghost"

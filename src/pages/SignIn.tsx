@@ -23,7 +23,7 @@ const SignIn = () => {
         {/* Logo */}
         <div className="flex items-center justify-center space-x-2 mb-8">
           <Waves className="h-8 w-8 text-white" />
-          <span className="text-2xl font-bold text-white">SeaSense</span>
+          <span className="text-2xl font-bold text-white">WaveTalk</span>
         </div>
 
         <Card className="shadow-ocean border-0">

@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { MessageSquare, Database, BarChart3, Waves, ChevronRight } from "lucide-react";
 import { Link } from "react-router-dom";
+import { ThemeToggle } from "@/components/theme-toggle";
 import heroImage from "@/assets/hero-ocean.jpg";
 import argoImage from "@/assets/argo-float.jpg";
 
@@ -12,18 +13,19 @@ const Home = () => {
       <nav className="border-b bg-card/50 backdrop-blur-sm sticky top-0 z-50">
         <div className="container mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
-            <div className="flex items-center space-x-2">
-              <Waves className="h-8 w-8 text-primary" />
-              <h1 className="text-2xl font-bold text-primary">SeaSense</h1>
-            </div>
-            <div className="flex items-center space-x-4">
-              <Button variant="outline" asChild>
-                <Link to="/signin">Sign In</Link>
-              </Button>
-              <Button asChild>
-                <Link to="/signup">Get Started</Link>
-              </Button>
-            </div>
+          <div className="flex items-center space-x-2">
+            <Waves className="h-8 w-8 text-primary" />
+            <h1 className="text-2xl font-bold text-primary">WaveTalk</h1>
+          </div>
+          <div className="flex items-center space-x-4">
+            <ThemeToggle />
+            <Button variant="outline" asChild>
+              <Link to="/signin">Sign In</Link>
+            </Button>
+            <Button asChild>
+              <Link to="/signup">Get Started</Link>
+            </Button>
+          </div>
           </div>
         </div>
       </nav>
@@ -66,7 +68,7 @@ const Home = () => {
               Intelligent Oceanographic Analysis
             </h3>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              SeaSense transforms complex ARGO data into accessible insights through conversational AI
+              WaveTalk transforms complex ARGO data into accessible insights through conversational AI
             </p>
           </div>
           
@@ -164,7 +166,7 @@ const Home = () => {
         <div className="container mx-auto px-6">
           <div className="flex items-center justify-center space-x-2 mb-6">
             <Waves className="h-6 w-6" />
-            <span className="text-lg font-semibold">SeaSense</span>
+            <span className="text-lg font-semibold">WaveTalk</span>
           </div>
           <p className="text-center text-primary-foreground/80">
             AI-Powered Oceanographic Insights • Built for Marine Science
