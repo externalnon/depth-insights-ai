@@ -58,6 +58,18 @@ export default {
           ring: "hsl(var(--sidebar-ring))",
         },
       },
+      backgroundImage: {
+        "gradient-ocean": "var(--gradient-ocean)",
+        "gradient-depth": "var(--gradient-depth)",
+        "gradient-surface": "var(--gradient-surface)",
+      },
+      boxShadow: {
+        ocean: "var(--shadow-ocean)",
+        float: "var(--shadow-float)",
+      },
+      transitionTimingFunction: {
+        wave: "var(--transition-wave)",
+      },
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
