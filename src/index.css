@@ -19,19 +19,19 @@ All colors MUST be HSL.
     --popover-foreground: 200 50% 10%;
 
     /* Ocean Deep - Primary brand color */
-    --primary: 200 100% 20%;
+    --primary: 204 73% 41%;
     --primary-foreground: 0 0% 98%;
 
     /* Ocean Surface - Secondary actions */
-    --secondary: 195 100% 85%;
-    --secondary-foreground: 200 100% 15%;
+    --secondary: 204 73% 85%;
+    --secondary-foreground: 204 73% 15%;
 
     --muted: 200 20% 96%;
     --muted-foreground: 200 10% 45%;
 
     /* Aqua Accent - Interactive elements */
-    --accent: 180 100% 50%;
-    --accent-foreground: 200 100% 10%;
+    --accent: 204 73% 55%;
+    --accent-foreground: 0 0% 98%;
 
     /* Coral Warning - Destructive actions */
     --destructive: 15 100% 55%;
@@ -43,13 +43,13 @@ All colors MUST be HSL.
     --ring: 180 100% 50%;
 
     /* Ocean Gradients */
-    --gradient-ocean: linear-gradient(135deg, hsl(200 100% 20%), hsl(180 100% 30%));
-    --gradient-depth: linear-gradient(180deg, hsl(195 100% 85%), hsl(200 100% 20%));
-    --gradient-surface: linear-gradient(135deg, hsl(180 100% 90%), hsl(195 100% 70%));
+    --gradient-ocean: linear-gradient(135deg, hsl(204 73% 41%), hsl(204 73% 55%));
+    --gradient-depth: linear-gradient(180deg, hsl(204 73% 85%), hsl(204 73% 41%));
+    --gradient-surface: linear-gradient(135deg, hsl(204 73% 90%), hsl(204 73% 70%));
     
     /* Shadows with ocean tint */
-    --shadow-ocean: 0 10px 30px -10px hsl(200 100% 20% / 0.3);
-    --shadow-float: 0 4px 20px hsl(180 100% 50% / 0.2);
+    --shadow-ocean: 0 10px 30px -10px hsl(204 73% 41% / 0.3);
+    --shadow-float: 0 4px 20px hsl(204 73% 55% / 0.2);
     
     /* Animations */
     --transition-wave: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -57,14 +57,14 @@ All colors MUST be HSL.
     --radius: 0.75rem;
 
     /* Sidebar Ocean Theme */
-    --sidebar-background: 200 100% 96%;
-    --sidebar-foreground: 200 50% 15%;
-    --sidebar-primary: 200 100% 20%;
+    --sidebar-background: 204 73% 96%;
+    --sidebar-foreground: 204 73% 15%;
+    --sidebar-primary: 204 73% 41%;
     --sidebar-primary-foreground: 0 0% 98%;
-    --sidebar-accent: 195 100% 90%;
-    --sidebar-accent-foreground: 200 100% 15%;
-    --sidebar-border: 200 30% 85%;
-    --sidebar-ring: 180 100% 50%;
+    --sidebar-accent: 204 73% 90%;
+    --sidebar-accent-foreground: 204 73% 15%;
+    --sidebar-border: 204 30% 85%;
+    --sidebar-ring: 204 73% 55%;
   }
 
   .dark {
@@ -78,16 +78,16 @@ All colors MUST be HSL.
     --popover: 200 40% 8%;
     --popover-foreground: 180 100% 90%;
 
-    --primary: 180 100% 60%;
+    --primary: 204 73% 60%;
     --primary-foreground: 200 50% 5%;
 
-    --secondary: 200 30% 15%;
-    --secondary-foreground: 180 100% 85%;
+    --secondary: 204 30% 15%;
+    --secondary-foreground: 204 73% 85%;
 
-    --muted: 200 30% 12%;
-    --muted-foreground: 180 30% 65%;
+    --muted: 204 30% 12%;
+    --muted-foreground: 204 30% 65%;
 
-    --accent: 180 100% 40%;
+    --accent: 204 73% 50%;
     --accent-foreground: 200 50% 5%;
 
     --destructive: 15 100% 50%;
@@ -95,17 +95,17 @@ All colors MUST be HSL.
 
     --border: 200 30% 18%;
     --input: 200 30% 15%;
-    --ring: 180 100% 60%;
+    --ring: 204 73% 60%;
     
     /* Dark Sidebar */
     --sidebar-background: 200 50% 8%;
-    --sidebar-foreground: 180 100% 85%;
-    --sidebar-primary: 180 100% 50%;
+    --sidebar-foreground: 204 73% 85%;
+    --sidebar-primary: 204 73% 55%;
     --sidebar-primary-foreground: 200 50% 5%;
-    --sidebar-accent: 200 30% 12%;
-    --sidebar-accent-foreground: 180 100% 85%;
-    --sidebar-border: 200 30% 15%;
-    --sidebar-ring: 180 100% 60%;
+    --sidebar-accent: 204 30% 12%;
+    --sidebar-accent-foreground: 204 73% 85%;
+    --sidebar-border: 204 30% 15%;
+    --sidebar-ring: 204 73% 60%;
   }
 }
 
